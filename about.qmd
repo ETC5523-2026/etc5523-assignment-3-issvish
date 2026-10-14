@@ -1,6 +1,6 @@
 ---
 title: "About"
-image: profile.jpg
+image: profile.JPEG
 about:
   template: jolla
   links:
@@ -10,4 +10,19 @@ about:
 
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+---
+title: "About Vishal"
+toc: false
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/issvish
+---
+
+I'm Vishal Sampath Kumar, a Melbourne-based postgraduate Business Analytics
+student at Monash University. I completed my undergrad at Questrom School of Business, Boston University studying Business Administration with concentrations in Marketing and Business Analytics. I am passionate about using evidence and data to power decision making and enjoy using R, visualisation and reproducible workflows to make complex evidence easier to understand.
+
+This website brings together my data stories and reflections on communicating research. My interests include statistical analysis, reproducible research and the choices that make a visual explanation
+useful. Outside data science, I enjoy strength training, fragrances and travel.
