@@ -1,6 +1,8 @@
 ---
 title: "Vaccines changed the lockdown equation—not an on/off switch"
 description: "What a 2021 Australian simulation can teach us about slowing outbreaks and layering protection."
+image: thumbnail.jpg
+image-alt: "A person wearing protective clothing and an Australian flag face mask holds a vaccine vial."
 author: "Vishal Sampath Kumar"
 date: "2026-10-14"
 categories:
@@ -66,6 +68,8 @@ growth_reduction <- round(
 Think back to the early vaccine rollout. One question loomed large: would vaccination mean the end of lockdowns?
 
 A 2021 study in Australia using models suggested that a much better response than an “yes” or “no” was that vaccines would help to control outbreaks by slowing them down, even though they could not prevent transmission [@zachreson2021].
+
+![](thumbnail.jpg)
 
 ::: {.callout-note}
 ## A historical study, not today's forecast
@@ -234,6 +238,11 @@ The opening question was whether vaccination would remove the need for lockdowns
 In these 2021 scenarios, not reliably, but it reduced early growth and the amount of distancing needed to suppress an outbreak.
 
 It is not a specific percentage, but the idea that different protections can interact to reinforce each other. One protection might lighten the load for another, without either making risk go away completely [@zachreson2021].
+
+## Image credit
+
+Thumbnail photograph: Getty Images, via
+[University of Melbourne Pursuit, “More Australians becoming wary of COVID-19 vaccines”](https://pursuit.unimelb.edu.au/articles/more-australians-becoming-wary-of-covid-19-vaccines).
 
 ## References
 
