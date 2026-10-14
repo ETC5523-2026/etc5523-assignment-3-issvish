@@ -1,0 +1,98 @@
+/* Vishal | Data in Context */
+/* All custom colours use CSS colour names. */
+
+/* Reading experience */
+body {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: darkslategray;
+  background-color: whitesmoke;
+}
+
+/* Heading hierarchy */
+h1,
+h2,
+h3,
+h4 {
+  color: midnightblue;
+  line-height: 1.25;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+h3 {
+  margin-top: 1.5rem;
+}
+
+/* Navigation */
+.navbar {
+  background-color: midnightblue;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: white;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus,
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: paleturquoise;
+}
+
+.navbar .nav-link.active {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.navbar-toggler {
+  border-color: paleturquoise;
+}
+
+/* Links */
+a {
+  color: teal;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: darkcyan;
+}
+
+a:focus-visible {
+  outline: 3px solid sienna;
+  outline-offset: 3px;
+}
+
+/* Keep listing links visually uncluttered */
+.quarto-listing a {
+  text-decoration: none;
+}
+
+.quarto-listing a:hover {
+  text-decoration: underline;
+}
+
+/* Title banners */
+.quarto-title-banner {
+  background-color: aliceblue;
+  color: midnightblue;
+}
+
+.quarto-title-banner h1,
+.quarto-title-banner .description {
+  color: midnightblue;
+}
+
+/* Tables */
+.table {
+  font-size: 0.96rem;
+  color: darkslategray;
+}
+
+.table th

@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Vishal",
+    "section": "",
+    "text": "I’m Vishal Sampath Kumar, a Melbourne-based postgraduate Business Analytics student at Monash University. I completed my undergrad at Questrom School of Business, Boston University studying Business Administration with concentrations in Marketing and Business Analytics. I am passionate about using evidence and data to power decision making and enjoy using R, visualisation and reproducible workflows to make complex evidence easier to understand.\nThis website brings together my data stories and reflections on communicating research. My interests include statistical analysis, reproducible research and the choices that make a visual explanation useful. Outside data science, I enjoy strength training, fragrances and travel."
+  },
+  {
+    "objectID": "posts/vaccination-lockdowns/index.html",
+    "href": "posts/vaccination-lockdowns/index.html",
+    "title": "Vaccines changed the lockdown equation—not an on/off switch",
+    "section": "",
+    "text": "Think back to the early vaccine rollout. One question loomed large: would vaccination mean the end of lockdowns?\nA 2021 study in Australia using models suggested that a much better response than an “yes” or “no” was that vaccines would help to control outbreaks by slowing them down, even though they could not prevent transmission (Zachreson et al. 2021)."
+  },
+  {
+    "objectID": "posts/vaccination-lockdowns/index.html#the-problem-does-protection-have-to-be-all-or-nothing",
+    "href": "posts/vaccination-lockdowns/index.html#the-problem-does-protection-have-to-be-all-or-nothing",
+    "title": "Vaccines changed the lockdown equation—not an on/off switch",
+    "section": "The problem: does protection have to be all or nothing?",
+    "text": "The problem: does protection have to be all or nothing?\nIt’s natural to think of vaccination in terms of a switch: you achieve a certain percentage, and then the restrictions don’t need to exist anymore. However, reducing transmission is useful even when not completely shutting the switch off.\nThe questions are how much slower an outbreak becomes, and how much additional distancing might still be needed to suppress it.\nAgent-based modelling of Australia was carried out by Cameron Zachreson et al to answer those questions. The simulation did not treat all individuals as the same but considered different ages and their interactions at homes, school, etc. (Zachreson et al. 2021)."
+  },
+  {
+    "objectID": "posts/vaccination-lockdowns/index.html#what-did-the-researchers-actually-compare",
+    "href": "posts/vaccination-lockdowns/index.html#what-did-the-researchers-actually-compare",
+    "title": "Vaccines changed the lockdown equation—not an on/off switch",
+    "section": "What did the researchers actually compare?",
+    "text": "What did the researchers actually compare?\nThe data is based on simulations of an outbreak, not on a study where different restrictions were imposed on Australians in a controlled experiment. The simulation incorporated demographic data from Australia, including the 2016 Census.\nVaccination was distributed before any outbreaks occurred, and older people were given priority. The model did not simulate the vaccine distribution occurring during an outbreak.\nThe study authors combined the higher efficacy priority vaccine with the lower efficacy general vaccine, along with travel restrictions and isolation of those infected.They also variedpopulation-wide distancing.\nFor estimating growth early on, they conducted 110 simulations for each scenario (Zachreson et al. 2021).\nThe following figure and table show selected summary statistics from the paper. They do not rerun the original model."
+  },
+  {
+    "objectID": "posts/vaccination-lockdowns/index.html#slower-growth-still-matters",
+    "href": "posts/vaccination-lockdowns/index.html#slower-growth-still-matters",
+    "title": "Vaccines changed the lockdown equation—not an on/off switch",
+    "section": "Slower growth still matters",
+    "text": "Slower growth still matters\nFigure 1 displays the mean growth rate of outbreaks for three selected cases. Vaccination helped to reduce the growth rate of outbreaks; however, it could not make it negative.\n\n\n\n\n\n\n\n\nFigure 1: Figure 1: Growth rates during the early epidemic for selected scenarios. Three scenarios are all with targeted interventions. Re-drawn from Table II of Zachreson et al. (2021); these are simulations, not reported case numbers. Bars represent selected mean values; uncertainty is addressed below.\n\n\n\n\n\nWith maximum coverage, the mean value reduced from 0.118 to 0.057 per day, which is about 52 lower.\nThis represents a decline in the rate of growth rather than an assertion that there were 52% fewer infections, or that each individual’s probability was 52% lower.\nThis model thus suggests a compromise approach – the disease may continue to spread but at a much slower pace. This explains why the failure to achieve total herd immunity does not necessarily mean failure of the vaccination program."
+  },
+  {
+    "objectID": "posts/vaccination-lockdowns/index.html#what-changed-for-lockdowns",
+    "href": "posts/vaccination-lockdowns/index.html#what-changed-for-lockdowns",
+    "title": "Vaccines changed the lockdown equation—not an on/off switch",
+    "section": "What changed for lockdowns?",
+    "text": "What changed for lockdowns?\nThe researchers then applied population-wide distancing once the cumulative incidence was 2,000 cases. They estimated how much compliance was needed for outbreaks to move towards suppression.\nTable 1 brings the selected growth and distancing findings together.\n\n\n\n\n\nTable 1: Table 1: Vaccination reduced early growth and compliance required for suppression. Data from Zachreson et al. (2021), Table II and Section III C\n\n\n\n\n\n\n\n\n\n\n\nModelled condition\nMean early growth rate per day\nApproximate distancing-compliance threshold\n\n\n\n\nTargeted interventions alone\n0.118\nBetween 60% and 70%\n\n\nTargeted interventions plus 10M priority and 10.7M general vaccinations\n0.057\nAbout 40%\n\n\n\n\n\n\n\n\n\nCompliance refers to the model’s distancing behaviour, not a percentage reduction in legal restrictions.\nThe highest-coverage scenario represented approximately 88% population coverage. It is not a universal target. The thresholds depend on the vaccines, allocation, contact patterns and other controls used in the simulation.\nNor does “about 40%” mean governments could simply remove 60% of their rules. It is a model-specific estimate of population compliance with specified distancing measures."
+  },
+  {
+    "objectID": "posts/vaccination-lockdowns/index.html#why-the-qualifications-matter",
+    "href": "posts/vaccination-lockdowns/index.html#why-the-qualifications-matter",
+    "title": "Vaccines changed the lockdown equation—not an on/off switch",
+    "section": "Why the qualifications matter",
+    "text": "Why the qualifications matter\nThere was no herd immunity threshold evident in the various feasible scenarios of hybrid rollout that the researchers looked at. Contact networks and age-based distribution were significant, especially clustering of kids in schools.\nImpact of the vaccines on transmission was also not established (Zachreson et al. 2021).\nThe chart shows selected means, not the full uncertainty. For example, the paper reports 5th–95th percentile ranges of 0.110–0.127 per day for targeted interventions alone and 0.052–0.062 for the highest-coverage scenario.\nThose ranges describe variation between simulated outbreaks. They are not the same as confidence intervals for the estimated mean.\nThe study answers a transmission question under assumptions. It does not settle which restrictions would be socially acceptable, economically worthwhile, or appropriate today."
+  },
+  {
+    "objectID": "posts/vaccination-lockdowns/index.html#the-takeaway-fewer-restrictions-is-different-from-no-restrictions",
+    "href": "posts/vaccination-lockdowns/index.html#the-takeaway-fewer-restrictions-is-different-from-no-restrictions",
+    "title": "Vaccines changed the lockdown equation—not an on/off switch",
+    "section": "The takeaway: fewer restrictions is different from no restrictions",
+    "text": "The takeaway: fewer restrictions is different from no restrictions\nThe opening question was whether vaccination would remove the need for lockdowns.\nIn these 2021 scenarios, not reliably, but it reduced early growth and the amount of distancing needed to suppress an outbreak.\nIt is not a specific percentage, but the idea that different protections can interact to reinforce each other. One protection might lighten the load for another, without either making risk go away completely (Zachreson et al. 2021)."
+  },
+  {
+    "objectID": "posts/vaccination-lockdowns/index.html#image-credit",
+    "href": "posts/vaccination-lockdowns/index.html#image-credit",
+    "title": "Vaccines changed the lockdown equation—not an on/off switch",
+    "section": "Image credit",
+    "text": "Image credit\nThumbnail photograph: Getty Images, via University of Melbourne Pursuit, “More Australians becoming wary of COVID-19 vaccines”."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "ETC5523 Blog Assessment",
+    "section": "",
+    "text": "Vaccines changed the lockdown equation—not an on/off switch\n\n\n\nPublic health\n\nModelling\n\nData stories\n\n\n\nWhat a 2021 Australian simulation can teach us about slowing outbreaks and layering protection.\n\n\n\n\n\nOct 14, 2026\n\n\nVishal Sampath Kumar\n\n\n\n\n\nNo matching items"
+  }
+]
