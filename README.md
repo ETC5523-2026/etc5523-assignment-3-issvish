@@ -5,7 +5,7 @@ A personal website about data analysis, reproducible research and communicating 
 
 The author of this blog is **Vishal Sampath Kumar**
 - GitHub: https://github.com/issvish
-- Website URL: To be added after GitHub Pages publication.
+- Website URL: https://etc5523-2026.github.io/etc5523-assignment-3-issvish/#category=
 
 ## Intended audience
 
